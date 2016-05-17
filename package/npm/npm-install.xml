@@ -1,0 +1,9 @@
+<!--
+name: npm-install
+description: Runs an npm install
+author: Juwit
+keywords: npm, install, node, download
+-->
+<exec command="npm">
+<arg>install</arg>
+</exec>
