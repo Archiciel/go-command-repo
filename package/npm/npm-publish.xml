@@ -1,0 +1,11 @@
+<!--
+name: npm-publish
+description: Runs an npm publish on a custom repository
+author: Juwit
+keywords: npm, publish, node, download
+-->
+<exec command="npm">
+<arg>publish</arg>
+<arg>--registry</arg>
+<arg>http://npm_registry_url</arg>
+</exec>
